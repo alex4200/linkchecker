@@ -38,7 +38,7 @@ class ProxySupport (object):
         and http:// URLs.
         """
         self.proxy = proxy
-        self.proxytype = "http"
+        self.proxytype = "https"
         self.proxyauth = None
         if not self.proxy:
             return
